@@ -42,18 +42,18 @@ if __name__ == "__main__":
     plt.subplot(311)
     plt.plot(data['TV'], y, 'ro')
     plt.title('TV')
-
     plt.grid()
+
     plt.subplot(312)
     plt.plot(data['radio'], y, 'g^')
     plt.title('Radio')
-
     plt.grid()
+
     plt.subplot(313)
     plt.plot(data['newspaper'], y, 'b*')
     plt.title('Newspaper')
-
     plt.grid()
+
     plt.tight_layout()
     plt.show()
 
